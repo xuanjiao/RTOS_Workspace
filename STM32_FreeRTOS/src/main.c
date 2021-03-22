@@ -28,6 +28,15 @@ int main(void)
 {
 	initialise_monitor_handles();
 	printf("Main function start\n");
+
+	// Enable cycle counter
+	DWT->CYCCNT |= (1 <<0 );
+
+	// Start recording events
+	SEGGER_SYSVIEW_Conf();
+	SEGGER_SYSVIEW_Start();
+
+
 	/*
 	 * Resets the RCC clock configuration to the default reset state.
 	 * HSE OFF, PLL OFF, HSI ON and used as system clock source (16 MHz)

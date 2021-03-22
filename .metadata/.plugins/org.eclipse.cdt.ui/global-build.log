@@ -1,30 +1,12 @@
-16:27:50 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
+17:19:57 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-16:28:07 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
+17:20:07 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-16:29:17 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
+17:20:25 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-16:29:20 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
-make -j8 all 
-make: Nothing to be done for 'all'.
-16:29:39 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
-make -j8 all 
-make: Nothing to be done for 'all'.
-16:41:24 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
-make -j8 all 
-make: Nothing to be done for 'all'.
-16:42:05 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
-make -j8 all 
-make: Nothing to be done for 'all'.
-16:42:25 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
-make -j8 all 
-make: Nothing to be done for 'all'.
-16:44:01 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
-make -j8 all 
-make: Nothing to be done for 'all'.
-16:44:27 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
+17:30:58 **** Incremental Build of configuration Debug for project STM32_FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
