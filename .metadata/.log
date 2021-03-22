@@ -1419,3 +1419,28 @@ java.io.FileNotFoundException: D:\Workspace\RTOS_workspace\STM32_FreeRTOS\SEGGER
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
 	at org.eclipse.cdt.debug.ui.memory.transport.RAWBinaryExporter$8.run(RAWBinaryExporter.java:491)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-03-22 17:38:03.193
+!MESSAGE An exception occurred during push on URI https://github.com/xuanjiao/STM32_RTOS_Workspace.git: Preference node "https:\2f\2fgithub.com:443" has been removed.
+!STACK 0
+java.lang.IllegalStateException: Preference node "https:\2f\2fgithub.com:443" has been removed.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.checkRemoved(SecurePreferences.java:354)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.parent(SecurePreferences.java:74)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.getRoot(SecurePreferences.java:136)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.flush(SecurePreferences.java:180)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.flush(SecurePreferencesWrapper.java:50)
+	at org.eclipse.egit.core.securestorage.EGitSecureStore.clearCredentials(EGitSecureStore.java:112)
+	at org.eclipse.egit.ui.internal.SecureStoreUtils.clearCredentials(SecureStoreUtils.java:83)
+	at org.eclipse.egit.ui.internal.credentials.EGitCredentialsProvider.reset(EGitCredentialsProvider.java:139)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:515)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:405)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1275)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:161)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:77)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-03-22 17:38:03.194
+!MESSAGE Can't connect to any repository: https://github.com/xuanjiao/STM32_RTOS_Workspace.git (Preference node "https:\2f\2fgithub.com:443" has been removed.)
